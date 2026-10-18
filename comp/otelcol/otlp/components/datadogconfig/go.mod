@@ -1,11 +1,11 @@
 module github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/datadogconfig
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/DataDog/datadog-agent/pkg/opentelemetry-mapping-go/otlp/metrics v0.0.0-00010101000000-000000000000
 	github.com/DataDog/datadog-agent/pkg/util/hostname/validate v0.0.0-00010101000000-000000000000
-	github.com/stretchr/testify v1.11.1
+	github.com/stretchr/testify v1.12.1
 	go.opentelemetry.io/collector/component v1.63.0
 	go.opentelemetry.io/collector/component/componenttest v0.157.0
 	go.opentelemetry.io/collector/config/configauth v1.63.0
@@ -35,17 +35,17 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/cenkalti/backoff/v7 v7.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/felixge/httpsnoop v1.0.4 // indirect
+	github.com/felixge/httpsnoop v1.1.0 // indirect
 	github.com/foxboron/go-tpm-keyfiles v0.0.0-20251226215517-609e4778396f // indirect
 	github.com/fsnotify/fsnotify v1.10.1 // indirect
-	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/golang/snappy v1.0.0 // indirect
 	github.com/google/go-tpm v0.9.8 // indirect
+	github.com/google/go-tpm-tools v0.4.8 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/go-version v1.9.0 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
@@ -62,7 +62,6 @@ require (
 	github.com/philhofer/fwd v1.2.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.27 // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
-	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/rs/cors v1.11.1 // indirect
 	github.com/tinylib/msgp v1.6.4 // indirect
 	github.com/twmb/murmur3 v1.1.8 // indirect
@@ -84,24 +83,24 @@ require (
 	go.opentelemetry.io/collector/pdata/xpdata v0.157.0 // indirect
 	go.opentelemetry.io/collector/pipeline v1.63.0 // indirect
 	go.opentelemetry.io/collector/pipeline/xpipeline v0.157.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.69.0 // indirect
-	go.opentelemetry.io/otel v1.44.1-0.20260622141720-fbe3d073ba93 // indirect
-	go.opentelemetry.io/otel/metric v1.44.1-0.20260622141720-fbe3d073ba93 // indirect
-	go.opentelemetry.io/otel/sdk v1.44.0 // indirect
-	go.opentelemetry.io/otel/sdk/metric v1.44.1-0.20260622141720-fbe3d073ba93 // indirect
-	go.opentelemetry.io/otel/trace v1.44.1-0.20260622141720-fbe3d073ba93 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.70.0 // indirect
+	go.opentelemetry.io/otel v1.47.0 // indirect
+	go.opentelemetry.io/otel/log v1.47.0 // indirect
+	go.opentelemetry.io/otel/metric v1.47.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.47.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v1.47.0 // indirect
+	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.54.0 // indirect
-	golang.org/x/net v0.57.0 // indirect
-	golang.org/x/sys v0.47.0 // indirect
-	golang.org/x/text v0.40.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
+	golang.org/x/crypto v0.57.0 // indirect
+	golang.org/x/net v0.59.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260618152121-87f3d3e198d3 // indirect
-	google.golang.org/grpc v1.82.1 // indirect
-	google.golang.org/protobuf v1.36.12-0.20260116114154-8c4c4ae446ca // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260928230214-8a89bd6388cc // indirect
+	google.golang.org/grpc v1.83.2 // indirect
+	google.golang.org/protobuf v1.36.12 // indirect
 )
 
 // This section was automatically added by 'dda inv modules.add-all-replace' command, do not edit manually
